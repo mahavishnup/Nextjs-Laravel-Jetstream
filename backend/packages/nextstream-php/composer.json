@@ -1,0 +1,21 @@
+{
+    "name": "ozzie/nextstream",
+    "description": "Adds support for Next.js into Laravel Jetstream",
+    "version": "0.1.1",
+    "require": {
+        "illuminate/support": "^9.11",
+        "laravel/fortify": "^1.12"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ozzie\\Nextstream\\NextstreamServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ozzie\\Nextstream\\": "src/"
+        }
+    }
+}
